@@ -72,7 +72,7 @@ def daysForcast (location: str, canvas):
             figure_canvas_agg.get_tk_widget().pack(side='top', fill='both', expand=1)
         
 GEOLOCATE_URL = "http://ip-api.com/json/"
-API_KEY = "9bd69bb316dbb0f7d7f9191a596f933e"
+API_KEY = "Open Weather API Key"
 BASE_URL = "http://api.openweathermap.org/data/2.5/weather"
 FORECAST_URL = "http://api.openweathermap.org/data/2.5/forecast"
 
